@@ -29,15 +29,15 @@
 }
 
 .awesome-block__list-item:first-child::before {
-    background-image: url('/images/bulb.svg');
+    background-image: url('../images/bulb.svg');
 }
 
 .awesome-block__list-item:nth-child(2)::before {
-    background-image: url('/images/keyboard.svg');
+    background-image: url('../images/keyboard.svg');
 }
 
 .awesome-block__list-item:last-child::before {
-    background-image: url('/images/raikiri.svg');
+    background-image: url('../images/raikiri.svg');
 }
 
 .awesome-block__list-title {
