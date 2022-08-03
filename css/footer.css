@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+    
+}
+
+.footer__logo-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 550px;
+    margin-top: 40px;
+}
+
+.footer__list-item:not(:first-child) {
+    margin-left: 28px;
+}
+
+.footer__copyright-text {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 28px 0;
+}

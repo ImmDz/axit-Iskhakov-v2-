@@ -1,0 +1,88 @@
+.banner-block {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/images/banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.banner-block__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-block__inner-text {
+    max-width: 670px;
+    margin-top: 200px;
+}
+
+.banner-block__inner-title {
+    margin-top: 75px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.banner-block__inner-title::after {
+    content: '';
+    background-color: #ffffff;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+}
+
+.banner-block__inner-description {
+    max-width: 270px;
+}
+
+.banner-block__download-btn {
+    margin-top: 40px;
+    padding: 20px 90px;
+    background: none;
+    border: 1px solid #ffffff;
+    margin-bottom: 200px;
+}
+
+.banner-block__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-self: center;
+}
+
+.banner-block__form-title {
+    text-transform: uppercase;
+    padding: 30px 60px;
+}
+
+span {
+    color: #EC7979;
+}
+
+.banner-block__form-input {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.banner-block__form-button {
+    margin-top: 80px;
+    padding: 20px 190px;
+    background-color: #EC7979;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    border: none;
+    cursor: pointer;
+}

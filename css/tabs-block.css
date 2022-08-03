@@ -1,0 +1,64 @@
+.tabs-block {
+    margin-top: 100px;
+}
+
+.tabs-block__list-buttons {
+    display: flex;
+    position: relative;
+    bottom: -1px;
+}
+
+.tabs-block__list-btn {
+    padding: 15px 85px;
+    font-family: 'Open sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.tabs-block__list-btn--active {
+    border: 1px solid #86878B;
+    border-bottom: 1px solid white;
+    border-radius: 4px 4px 0 0;
+}
+
+.tabs-block__inner-content {
+    display: flex;
+    border: 1px solid #86878B;
+    
+}
+
+.tabs-block__text {
+    max-width: 570px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.tabs-block__title {
+    margin-bottom: 75px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.tabs-block__paragraph {
+    margin-top: 30px;
+}
+
+.tabs-block__statue-img {
+    position: relative;
+}
+
+.tabs-block__download-btn {
+    margin-top: 30px;
+    margin-bottom: 55px;
+    padding: 22px 93px;
+    border: none;
+    background-color: #EC7979;
+}

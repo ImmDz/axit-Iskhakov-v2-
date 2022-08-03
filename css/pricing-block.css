@@ -1,0 +1,51 @@
+.pricing-block {
+    text-align: center;
+    background-color: #F5F5F5;
+    margin-top: 60px;
+    padding-top: 110px;
+    padding-bottom: 50px;
+}
+
+.pricing-block__cards-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.pricing-block__cards-item--Optima {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+    margin-top: -20px;
+    align-self: flex-start;
+}
+
+.pricing-block__card-header {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.pricing-block__card-paragraph--price {
+    padding: 32px 140px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+.pricing-block-card-paragraph {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.pricing-block__cards-sublist {
+    background-color: #ffffff;
+}
+
+.pricing-block__sublist-item {
+    padding: 10px 0;
+    border: 1px solid #F5F5F5;
+}
+
+.pricing-block__sublist-paragraph {
+    color: #86878B;
+    text-transform: capitalize;
+}

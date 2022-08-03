@@ -1,0 +1,23 @@
+header {
+    background-color: black;
+    color: #ffffff;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__nav-item {
+    padding-left: 60px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}

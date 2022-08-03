@@ -1,0 +1,54 @@
+.awesome-block {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.awesome-block__list {
+    display: flex;
+    margin-top: 110px;
+}
+
+.awesome-block__list-item {
+    max-width: 370px;
+    position: relative;
+    padding-top: 180px;
+}
+
+.awesome-block__list-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 35%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.awesome-block__list-item:first-child::before {
+    background-image: url('/images/bulb.svg');
+}
+
+.awesome-block__list-item:nth-child(2)::before {
+    background-image: url('/images/keyboard.svg');
+}
+
+.awesome-block__list-item:last-child::before {
+    background-image: url('/images/raikiri.svg');
+}
+
+.awesome-block__list-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.awesome-block__list-paragraph {
+    margin-top: 30px;
+}
