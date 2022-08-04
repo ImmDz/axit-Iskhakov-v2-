@@ -1,20 +1,20 @@
-header {
+.header-block {
     background-color: black;
     color: #ffffff;
 }
 
-.header__inner {
+.header-block__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
 }
 
-.header__nav {
+.header-block__nav {
     display: flex;
 }
 
-.header__nav-item {
+.header-block__nav-item {
     min-width: 100px;   
     font-family: 'Open Sans';
     font-weight: 600;
@@ -22,7 +22,7 @@ header {
     line-height: 19px;
 }
 
-.header__nav-link {
+.header-block__nav-link {
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 14px;
@@ -33,7 +33,7 @@ header {
     padding: 20px;
 }
 
-.header__nav-link:hover {
+.header-block__nav-link:hover {
     background-color: #EC7979;
     transition: 0.5s;
 }

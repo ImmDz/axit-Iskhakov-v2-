@@ -1,8 +1,10 @@
 .banner-block {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/banner-bg.jpg');
+    /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/banner-bg.jpg'); */
+    background-image: url('../images/banner-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 200px;
+    background-color: #3d3d3d;
 }
 
 .banner-block__inner {
