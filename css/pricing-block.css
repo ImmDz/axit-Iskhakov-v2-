@@ -12,15 +12,24 @@
     margin-top: 60px;
 }
 
-.pricing-block__cards-item--Optima {
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
-    margin-top: -20px;
+.pricing-block__cards-item {
+    cursor: pointer;
+}
+
+.pricing-block__cards-item:hover {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-30px);
     align-self: flex-start;
+    transition: 0.5s;
 }
 
 .pricing-block__card-header {
     background-color: #333333;
     color: #FFFFFF;
+}
+
+.pricing-block__card-title {
+    padding: 10px 0;
 }
 
 .pricing-block__card-paragraph--price {
@@ -33,7 +42,8 @@
 }
 
 .pricing-block-card-paragraph {
-    color: rgba(255, 255, 255, 0.5)
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10px 0;
 }
 
 .pricing-block__cards-sublist {
