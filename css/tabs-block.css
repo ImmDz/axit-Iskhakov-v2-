@@ -69,8 +69,6 @@
 }
 
 .tabs-block__download-btn {
-    max-width: 370px;
-    min-width: 270px;
     margin-top: 30px;
     padding: 20px 30px;
     border: none;
