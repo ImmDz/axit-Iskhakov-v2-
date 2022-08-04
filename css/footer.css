@@ -1,23 +1,18 @@
-footer {
-    display: flex;
-    justify-content: center;
+.footer-block {
     text-align: center;
     background-color: #000000;
     
 }
 
-.footer__logo-list {
+.footer-block__logo-list {
     display: flex;
     justify-content: space-between;
     max-width: 550px;
-    margin-top: 40px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.footer__list-item:not(:first-child) {
-    margin-left: 28px;
-}
-
-.footer__copyright-text {
+.footer-block__copyright-text {
     color: rgba(255, 255, 255, 0.5);
-    margin: 28px 0;
+    padding-bottom: 20px;
 }
