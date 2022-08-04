@@ -25,7 +25,14 @@
 .tabs-block__list-btn--active {
     border: 1px solid #86878B;
     border-bottom: 1px solid white;
-    border-radius: 4px 4px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.tabs-block__list-btn:not(.tabs-block__list-btn--active):hover {
+    background-color: rgba(236, 121, 121, 0.5);
+    color: #ffffff;
+    border-radius: 5px 5px 0 0;
+    transition: 0.4s;
 }
 
 .tabs-block__inner-content {
