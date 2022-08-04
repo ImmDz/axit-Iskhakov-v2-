@@ -76,3 +76,8 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
+
+.download-button:hover {
+  background-color: #EC7979;
+  transition: 0.5s;
+}
