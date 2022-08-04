@@ -10,7 +10,7 @@
     padding: 20px 0;
 }
 
-.header-block__nav {
+.header-block__nav-list {
     display: flex;
 }
 
@@ -30,7 +30,7 @@
     color: #ffffff;
     text-decoration: none;
     cursor: pointer;
-    padding: 20px;
+    padding: 15px 20px;
 }
 
 .header-block__nav-link:hover {
