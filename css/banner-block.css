@@ -1,9 +1,7 @@
 .banner-block {
-    /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/banner-bg.jpg'); */
     background-image: url('../images/banner-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 200px;
     background-color: #3d3d3d;
 }
 
@@ -12,6 +10,7 @@
     justify-content: space-between;
     align-items: flex-start;
     padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .banner-block__inner-text {
@@ -91,7 +90,7 @@ span {
 
 .banner-block__form-button {
     margin-top: 80px;
-    padding: 20px 190px;
+    padding: 20px;
     background-color: #EC7979;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;

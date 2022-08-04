@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 
 .header-block__nav-list {
@@ -20,6 +20,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
+    padding: 20px;
 }
 
 .header-block__nav-link {
@@ -30,10 +31,10 @@
     color: #ffffff;
     text-decoration: none;
     cursor: pointer;
-    padding: 15px 20px;
+    
 }
 
-.header-block__nav-link:hover {
+.header-block__nav-item:hover {
     background-color: #EC7979;
     transition: 0.5s;
 }
