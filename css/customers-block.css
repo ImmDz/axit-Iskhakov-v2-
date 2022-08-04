@@ -9,6 +9,10 @@
     margin-top: 80px;
 }
 
+.customers-block__person {
+    max-width: 370px;
+}
+
 .customers-block__person-bubble {
     background-color: #E2E2E2;
     padding: 22px 36px;
@@ -35,44 +39,16 @@
     color: #86878B;
 }
 
+.customers-block__person-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
 .customers-block__person-name {
     text-transform: capitalize;
-    margin-top: 50px;
-    padding-left: 50px;
-    position: relative;
-}
-
-.customers-block__person-name--Davis::before {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: url('../images/Davis.png') center no-repeat;
-    left: 0;
-    top: -20px;
-}
-
-.customers-block__person-name--Jaydon::before {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: url('../images/Jaydon.png') center no-repeat;
-    left: 0;
-    top: -20px;
-}
-
-.customers-block__person-name--Cooper::before {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: url('../images/Cooper.png') center no-repeat;
-    left: 0;
-    top: -20px;
+    margin-top: 30px;
 }
 
 .customers-block__person-profession {
