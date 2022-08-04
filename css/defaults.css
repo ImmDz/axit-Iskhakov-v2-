@@ -27,7 +27,7 @@ body {
     margin: 0 auto;
 }
 
-.title-h2 {
+.sections-title {
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
@@ -36,7 +36,7 @@ body {
     padding-bottom: 60px;
 }
 
-.title-h2::after {
+.sections-title::after {
     content: '';
     background-color: red;
     height: 1px;
@@ -46,7 +46,7 @@ body {
     width: 15%;
 }
 
-.title-h3 {
+.elements-title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 24px;
