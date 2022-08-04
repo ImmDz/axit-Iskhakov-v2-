@@ -15,9 +15,25 @@ header {
 }
 
 .header__nav-item {
-    padding-left: 60px;
+    min-width: 100px;   
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
+}
+
+.header__nav-link {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.header__nav-link:hover {
+    background-color: #EC7979;
+    transition: 0.5s;
 }
