@@ -9,7 +9,9 @@
 }
 
 .tabs-block__list-btn {
-    padding: 15px 85px;
+    padding: 15px 50px;
+    min-width: 100px;
+    max-width: 200px;
     font-family: 'Open sans', sans-serif;
     text-transform: uppercase;
     font-size: 14px;
@@ -33,14 +35,18 @@
 }
 
 .tabs-block__text {
-    max-width: 570px;
-    margin-left: 100px;
-    margin-top: 50px;
-    margin-right: 40px;
+    max-width: 700px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+.tabs-block__text-paragraphs {
+    margin-top: 75px;
 }
 
 .tabs-block__title {
-    margin-bottom: 75px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -56,9 +62,10 @@
 }
 
 .tabs-block__download-btn {
+    max-width: 370px;
+    min-width: 270px;
     margin-top: 30px;
-    margin-bottom: 55px;
-    padding: 22px 93px;
+    padding: 20px 30px;
     border: none;
     background-color: #EC7979;
 }
