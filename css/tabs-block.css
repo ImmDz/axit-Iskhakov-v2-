@@ -47,10 +47,7 @@
     padding-top: 50px;
     padding-right: 40px;
     padding-bottom: 30px;
-}
-
-.tabs-block__text-paragraphs {
-    margin-top: 75px;
+    background-color: #86878B;
 }
 
 .tabs-block__title {
@@ -62,6 +59,10 @@
 
 .tabs-block__paragraph {
     margin-top: 30px;
+}
+
+.tabs-block__paragraph:not(:nth-child(3)) {
+    margin-top: 50px;
 }
 
 .tabs-block__statue-img {
