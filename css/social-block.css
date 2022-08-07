@@ -1,0 +1,25 @@
+.social-block {
+    background-color: #F5F5F5;
+}
+
+.social-block__inner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.social-block__text-info {
+    max-width: 470px;
+}
+
+.social-block__title {
+    text-transform: capitalize;
+}
+
+.social-block__logo-list {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+
+}
