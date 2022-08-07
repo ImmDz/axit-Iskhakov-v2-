@@ -29,6 +29,7 @@ textarea {
     width: 570px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
+    resize: none;
 }
 
 .contact-block__form-button {
