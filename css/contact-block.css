@@ -7,6 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .contact-block__personal-data {
@@ -16,13 +17,21 @@
     border: none;
 }
 
-.contact-block__form-label:not(:last-child) {
+/* .contact-block__form-label:not(:last-child) {
     min-width: 100%;
-    padding: 50px 0;
+    padding-top: 30px;
+} */
+
+.contact-block__form-label {
+    margin-top: 50px;
 }
 
 .contact-block__form-input {
     width: 100%;
+}
+
+.contact-block__form-input:focus {
+    outline: none;
 }
 
 textarea {
@@ -32,15 +41,26 @@ textarea {
     resize: none;
 }
 
+textarea:focus {
+    outline: 1px solid #BDBDBD;
+    border: none;
+}
+
 .contact-block__form-button {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
-    color: #000000;
+    background-color: #EC7979;
     cursor: pointer;
     max-width: 370px;
     min-width: 270px;
     padding: 20px;
     margin: 50px auto;
+    border: none;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.contact-block__form-button:hover {
+    color: rgba(255, 255, 255, 0.8);
 }
