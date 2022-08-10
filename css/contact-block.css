@@ -17,11 +17,6 @@
     border: none;
 }
 
-/* .contact-block__form-label:not(:last-child) {
-    min-width: 100%;
-    padding-top: 30px;
-} */
-
 .contact-block__form-label {
     margin-top: 50px;
 }
@@ -34,14 +29,14 @@
     outline: none;
 }
 
-textarea {
+.contact-block__form-textarea {
     width: 570px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     resize: none;
 }
 
-textarea:focus {
+.contact-block__form-textarea:focus {
     outline: 1px solid #BDBDBD;
     border: none;
 }

@@ -3,9 +3,10 @@
 @import "social-block.css";
 @import "awesome-block.css";
 @import "customers-block.css";
-@import "defaults.css";
 @import "pricing-block.css";
 @import "tabs-block.css";
 @import "design-block.css";
 @import "contact-block.css";
 @import "footer.css";
+@import "defaults.css";
+@import "adaptive.css";
