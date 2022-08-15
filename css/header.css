@@ -7,7 +7,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 20px 0; */
 }
 
 .header-block__nav-list {
@@ -37,4 +36,21 @@
 .header-block__nav-item:hover {
     background-color: #EC7979;
     transition: 0.5s;
+}
+
+.header-block__drop-btn {
+    display: none;
+    max-width: 37px;
+    background-color: black;
+    border: none;
+    padding: 10px 0;
+}
+
+.header-block__btn-line {
+    background-color: #ffffff;
+    width: 37px;
+    height: 3px;
+    border-radius: 2px;
+    display: block;
+    margin: 6px 0;
 }

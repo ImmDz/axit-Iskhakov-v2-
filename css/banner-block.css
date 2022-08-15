@@ -11,18 +11,19 @@
     align-items: flex-start;
     padding-top: 200px;
     padding-bottom: 200px;
+    gap: 20px;
 }
 
 .banner-block__inner-text {
-    max-width: 670px;
+    flex-basis: 100%;
 }
 
 .banner-block__inner-title {
     margin-top: 75px;
     color: #ffffff;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 60px;
@@ -55,7 +56,8 @@
     justify-content: space-between;
     background-color: #ffffff;
     align-items: center;
-    
+    min-width: 300px;
+    flex-basis: 80%;
 }
 
 .banner-block__form-title {
@@ -70,22 +72,6 @@ span {
 .banner-block__form-label {
     width: 80%;
     margin-top: 35px;
-}
-
-/* .banner-block__form-input {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #BDBDBD;
-    padding: 10px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #000000;
-} */
-
-.banner-block__form-input {
-    
 }
 
 .banner-block__form-input:focus {

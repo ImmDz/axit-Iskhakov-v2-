@@ -4,25 +4,33 @@
 }
 
 .contact-block__form {
+    margin-top: 90px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contact-block__form-inner {
+    display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    gap: 20px;
+    align-items: center;
 }
 
 .contact-block__personal-data {
     display: flex;
     flex-direction: column;
-    min-width: 570px;
     border: none;
-}
-
-.contact-block__form-label {
-    margin-top: 50px;
+    gap: 53px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    flex-basis: 50%;
 }
 
 .contact-block__form-input {
     width: 100%;
+    
 }
 
 .contact-block__form-input:focus {
@@ -30,10 +38,13 @@
 }
 
 .contact-block__form-textarea {
-    width: 570px;
+    max-width: 570px;
+    min-height: 226px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     resize: none;
+    flex-basis: 50%;
+
 }
 
 .contact-block__form-textarea:focus {

@@ -32,6 +32,11 @@
                             </li>
                         </ul>
                     </nav>
+                    <button class="header-block__drop-btn">
+                        <span class="header-block__btn-line"></span>
+                        <span class="header-block__btn-line"></span>
+                        <span class="header-block__btn-line"></span>
+                    </button>
                 </div>
             </div>
         </header>
@@ -72,7 +77,7 @@
                         </div>
                         <ul class="social-block__logo-list">
                             <li class="social-block__list-item"><a href="#"><img src="images/facebook_iconface.svg"
-                                        alt="facebook"></a></li>
+                                        alt="facebook" min-width="100%" height="100%"></a></li>
                             <li class="social-block__list-item"><a href="#"><img src="images/twitter_icontwit.svg"
                                         alt="twitter"></a></li>
                             <li class="social-block__list-item"><a href="#"><img src="images/linkedin_iconlink.svg"
@@ -116,8 +121,12 @@
                                 euismod bibendum laoreet.</p>
                             <button class="tabs-block__download-btn download-button" type="button">Download</button>
                         </div>
-                        <img class="tabs-block__statue-img" src="images/Statue.jpg" alt="statue" min-width="100%"
+                        <picture class="tabs-block__picture">
+                            <source srcset="images/StatueSmall.jpg" media="(max-width: 1510px)">
+                            <img class="tabs-block__statue-img" src="images/Statue.jpg" alt="statue" min-width="100%"
                             min-height="100%">
+                        </picture>
+                        
                     </div>
                 </section>
                 <section class="awesome-block">
@@ -126,21 +135,21 @@
                         elit.</p>
                     <ul class="awesome-block__list">
                         <li class="awesome-block__list-item">
-                            <h3 class="awesome-block__list-title">thoughtful design</h3>
+                            <h3 class="awesome-block__list-title elements-title">thoughtful design</h3>
                             <p class="awesome-block__list-paragraph paragraph">Lorem ipsum dolor sit amet, consectetur
                                 adipiscing
                                 elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                                 viverra.</p>
                         </li>
                         <li class="awesome-block__list-item">
-                            <h3 class="awesome-block__list-title">thoughtful design</h3>
+                            <h3 class="awesome-block__list-title elements-title">thoughtful design</h3>
                             <p class="awesome-block__list-paragraph paragraph">Lorem ipsum dolor sit amet, consectetur
                                 adipiscing
                                 elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                                 viverra.</p>
                         </li>
                         <li class="awesome-block__list-item">
-                            <h3 class="awesome-block__list-title">thoughtful design</h3>
+                            <h3 class="awesome-block__list-title elements-title">thoughtful design</h3>
                             <p class="awesome-block__list-paragraph paragraph">Lorem ipsum dolor sit amet, consectetur
                                 adipiscing
                                 elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
@@ -254,7 +263,7 @@
                                     quo suscipit.</p>
                             </div>
                             <div class="customers-block__person-info">
-                                <img src="images/Davis.png" alt="face-image" width="100px" height="100px">
+                                <img src="images/Davis.png" alt="face-image" width="70px" height="70px">
                                 <div class="customers-block__info-text">
                                     <h3 class="customers-block__person-name elements-title">davis rhiel madsen</h3>
                                     <p class="customers-block__person-profession paragraph">Manager</p>
@@ -270,7 +279,7 @@
                                     quo suscipit.</p>
                             </div>
                             <div class="customers-block__person-info">
-                                <img src="images/Jaydon.png" alt="face-image" width="100px" height="100px">
+                                <img src="images/Jaydon.png" alt="face-image" width="70px" height="70px">
                                 <div class="customers-block__info-text">
                                     <h3 class="customers-block__person-name elements-title">jaydon rosser</h3>
                                     <p class="customers-block__person-profession paragraph">Manager</p>
@@ -286,7 +295,7 @@
                                     quo suscipit.</p>
                             </div>
                             <div class="customers-block__person-info">
-                                <img src="images/Cooper.png" alt="face-image" width="100px" height="100px">
+                                <img src="images/Cooper.png" alt="face-image" width="70px" height="70px">
                                 <div class="customers-block__info-text">
                                     <h3 class="customers-block__person-name elements-title">cooper dorwart</h3>
                                     <p class="customers-block__person-profession paragraph">Manager</p>
@@ -309,18 +318,20 @@
                     <h2 class="contact-block__title sections-title">contact us</h2>
                     <p class="contact-block__description description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <form class="contact-block__form" action="#" method="post">
-                        <fieldset class="contact-block__personal-data">
-                            <label class="contact-block__form-label">
-                                <input class="contact-block__form-input global-input" type="Name" name="Name" placeholder="Name">
-                            </label>
-                            <label class="contact-block__form-label">
-                                <input class="contact-block__form-input global-input" type="Email" name="Email" placeholder="Email">
-                            </label>
-                            <label class="contact-block__form-label">
-                                <input class="contact-block__form-input global-input" type="password" name="password" placeholder="Password">
-                            </label>
-                        </fieldset>
-                        <textarea class="contact-block__form-textarea" name=""></textarea>
+                        <div class="contact-block__form-inner">
+                            <fieldset class="contact-block__personal-data">
+                                <label class="contact-block__form-label">
+                                    <input class="contact-block__form-input global-input" type="Name" name="Name" placeholder="Name">
+                                </label>
+                                <label class="contact-block__form-label">
+                                    <input class="contact-block__form-input global-input" type="Email" name="Email" placeholder="Email">
+                                </label>
+                                <label class="contact-block__form-label">
+                                    <input class="contact-block__form-input global-input" type="password" name="password" placeholder="Password">
+                                </label>
+                            </fieldset>
+                            <textarea class="contact-block__form-textarea global-input" name="text" placeholder="Message"></textarea>
+                        </div>
                         <button class="contact-block__form-button">send message</button>
                     </form>
                 </div>
