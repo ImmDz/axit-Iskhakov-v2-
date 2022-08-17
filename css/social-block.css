@@ -12,7 +12,6 @@
 
 .social-block__text-info {
     max-width: 470px;
-    min-width: 400px;
 }
 
 .social-block__title {
@@ -22,5 +21,5 @@
 .social-block__logo-list {
     display: flex;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
 }

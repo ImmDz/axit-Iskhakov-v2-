@@ -56,3 +56,24 @@
 .customers-block__person-profession {
     margin-top: 10px;
 }
+
+.customers-block__button-list {
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    display: none;
+}
+
+.customers-block__button {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #86878B;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.customers-block__button--active {
+    background-color: #86878B;
+}

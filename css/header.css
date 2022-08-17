@@ -41,9 +41,10 @@
 .header-block__drop-btn {
     display: none;
     max-width: 37px;
+    padding: 20px 0;
     background-color: black;
     border: none;
-    padding: 10px 0;
+    cursor: pointer;
 }
 
 .header-block__btn-line {
