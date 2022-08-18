@@ -8,6 +8,10 @@
     padding-bottom: 50px;
 }
 
+.design-block__title::after {
+    background-color: #ffffff !important;
+}
+
 .design-block__description {
     color: #ffffff;
 }
