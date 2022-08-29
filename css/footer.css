@@ -7,7 +7,6 @@
 .footer-block__logo-list {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     max-width: 550px;
     margin: 0 auto;
     padding: 20px;
@@ -16,4 +15,13 @@
 .footer-block__copyright-text {
     color: rgba(255, 255, 255, 0.5) !important;
     padding-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+    .footer-block__logo-list {
+        padding: 0;
+    }
+    .footer-block__logo-img {
+        width: 28px;
+    }
 }

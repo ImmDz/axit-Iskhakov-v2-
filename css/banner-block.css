@@ -41,11 +41,13 @@
 
 .banner-block__inner-description {
     max-width: 270px;
+    color: #fff;
 }
 
 .banner-block__download-btn {
     margin-top: 40px;
-    padding: 20px 90px;
+    padding: 20px;
+    min-width: 300px;
     background: none;
     border: 1px solid #ffffff;
 }
@@ -93,4 +95,35 @@ span {
     cursor: pointer;
     width: 100%;
     border-radius: 0 0 10px 10px;
+}
+.banner-block__form-button:hover {
+    background-color: #E71414;
+    transition-duration: 0.5s;
+}
+
+@media (max-width: 1024px) {
+  .banner-block__inner-title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+@media (max-width: 900px) {
+    .banner-block__inner {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0 0 100px 0;
+    }
+    .banner-block__inner-logo {
+        display: none;
+    }
+    .banner-block__inner-title::after {
+        left: 35%;
+        width: 30%;
+    }
+    .banner-block__inner-description {
+        margin: 35px auto;
+    }
+    
 }

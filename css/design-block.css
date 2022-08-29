@@ -9,7 +9,7 @@
 }
 
 .design-block__title::after {
-    background-color: #ffffff !important;
+    background-color: #ffffff;
 }
 
 .design-block__description {
@@ -18,8 +18,15 @@
 
 .design-block__download-btn {
     margin-top: 70px;
-    padding: 20px 50px;
+    padding: 20px;
+    min-width: 350px;
     background: none;
     border: 1px solid #ffffff; 
     margin-bottom: 50px;
+}
+
+@media (max-width: 500px) {
+    .design-block__download-btn {
+        min-width: 100%;
+    }
 }

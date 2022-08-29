@@ -43,18 +43,21 @@
 .customers-block__person-info {
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
     margin-top: 20px;
     gap: 20px;
 }
 
-.customers-block__person-name {
-    text-transform: capitalize;
+.customers-block__info-text {
     margin-top: 60px;
 }
 
+.customers-block__person-name {
+    text-transform: capitalize;
+}
+
 .customers-block__person-profession {
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .customers-block__button-list {
@@ -76,4 +79,16 @@
 
 .customers-block__button--active {
     background-color: #86878B;
+}
+
+@media (max-width: 900px) {
+    .customers-block__person-list {
+        justify-content: center;
+    }
+    .customers-block__person:nth-child(2n + 1) {
+        display: none;
+    }
+    .customers-block__button-list {
+        display: flex;
+    }
 }

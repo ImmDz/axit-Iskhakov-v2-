@@ -1,5 +1,5 @@
 .social-block {
-    background-color: #F5F5F5;
+    background-color: #F8EFEF;
 }
 
 .social-block__inner-content {
@@ -11,7 +11,7 @@
 }
 
 .social-block__text-info {
-    max-width: 470px;
+    max-width: 460px;
 }
 
 .social-block__title {
@@ -21,5 +21,23 @@
 .social-block__logo-list {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 17px;
+}
+
+@media (max-width: 1024px) {
+    .social-block__logo-list {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .social-block__inner-content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .social-block__logo-img {
+        width: 28px;
+    }
 }

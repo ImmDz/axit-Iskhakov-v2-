@@ -16,7 +16,7 @@
     padding-top: 180px;
 }
 
-.awesome-block__list-item:before {
+.awesome-block__list-item::before {
     content: '';
     position: absolute;
     top: 0;
@@ -28,6 +28,12 @@
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
+    cursor: pointer;
+}
+
+.awesome-block__list-item:hover::before {
+    transform: rotate(360deg);
+    transition-duration: 2s;
 }
 
 .awesome-block__list-item:first-child::before {
@@ -53,4 +59,16 @@
 
 .awesome-block__list-paragraph {
     margin-top: 30px;
+}
+
+@media (max-width: 900px) {
+    .awesome-block__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .awesome-block__list-item:before {
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
 }

@@ -68,5 +68,22 @@
     text-transform: capitalize;
 }
 .contact-block__form-button:hover {
-    color: rgba(255, 255, 255, 0.8);
+    background-color: #E71414;
+    transition-duration: 0.5s;  
+}
+.contact-block__form-button:active {
+    box-shadow: 4px 4px 30px #FF4343;
+}
+
+@media (max-width: 900px) {
+    .contact-block__form-inner {
+        flex-direction: column;
+        
+    }
+    .contact-block__personal-data {
+        min-width: 100%;
+    }
+    .contact-block__form-textarea {
+        min-width: 100%;
+    }
 }

@@ -19,11 +19,11 @@
     flex-basis: 33%;
 }
 
-.pricing-block__cards-item:nth-child(2) {
+.pricing-block__cards-item:hover {
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
     transform: translateY(-30px);
     align-self: flex-start;
-    transition: 0.5s;
+    transition-duration: 0.8s;
 }
 
 .pricing-block__card-header {
@@ -55,10 +55,24 @@
 
 .pricing-block__sublist-item {
     padding: 10px 0;
-    border: 1px solid #F5F5F5;
+    border-top: 2px solid #F5F5F5;
+
 }
 
 .pricing-block__sublist-paragraph {
     color: #86878B;
     text-transform: capitalize;
+}
+
+@media (max-width: 900px) {
+    .pricing-block__cards-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing-block__cards-item:nth-child(2) {
+    box-shadow: none;
+    transform: none;
+    align-self: center;
+    transition: none;
+  }
 }
